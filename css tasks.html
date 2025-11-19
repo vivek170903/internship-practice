@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Blog</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: lightgray;
+    }
+
+    h1, h2, h3, h4, h5 {
+      margin: 0;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .header {
+      text-align: center;
+      padding: 30px 0;
+    }
+
+    .header h1 {
+      font-size: 40px;
+      font-weight: bold;
+    }
+
+    .row {
+      display: flex;
+      gap: 20px;
+    }
+
+    .left {
+      flex: 2;
+    }
+
+    .right {
+      flex: 1;
+    }
+
+    .card {
+      background: white;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 6px;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    .btn {
+      background: black;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+    }
+
+    .sidebar-img {
+      width: 100%;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+    
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="header">
+      <h1>MY BLOG</h1>
+      <p>Welcome to the blog of <strong>Vivek</strong></p>
+    </div>
+
+    <div class="row">
+
+      <div class="left">
+
+        <div class="card">
+          <img src="https://www.w3schools.com/w3images/woods.jpg">
+          <h2>Lost in the Beauty Of Nature</h2>
+          <p><small>April 7, 2014</small></p>
+          <p>A silent mountain wears a crown of drifting, silver clouds.</p>
+          <button class="btn">Read More</button>
+        </div>
+
+        <div class="card">
+          <img src="https://www.w3schools.com/w3images/bridge.jpg">
+          <h2>The Sky's Underscore: Where Steel and River Meet</h2>
+          <p><small>April 2, 2014</small></p>
+          <p>It is a steady suture, holding two separated banks of the world together.</p>
+          <button class="btn">Read More</button>
+        </div>
+
+      </div>
+
+      <div class="right">
+
+        <div class="card">
+          <img class="sidebar-img" src="https://www.w3schools.com/w3images/avatar_g.jpg">
+          <h3>About Me</h3>
+          <p>This is Vivek, a recent college graduate trying to find a meaning in life.</p>
+        </div>
+
+        <div class="card">
+          <h3>Popular Posts</h3>
+          <p>  One Piece breaks all records</p>
+          <p>  Cycling Marathon to Statue of Unity began.</p>
+          <p>  Dhanush is back with his new film "Tere Ishq Mein"</p>
+        </div>
+
+        <div class="card">
+          <h3>Tags</h3>
+          <p><button class="btn">Travel</button>, Nature, London, DIY, Ideas</p>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+ <footer>
+    <p>© 2025 My Blog — All Rights Reserved</p>
+    <p>Designed by VIVEK VITHLANI.</p>
+  </footer>
+</body>
+</html>
