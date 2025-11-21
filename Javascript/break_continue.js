@@ -17,4 +17,3 @@
 //     }
 //     console.log(i);
 // }
-console.log("hello there");
