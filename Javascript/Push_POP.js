@@ -1,9 +1,9 @@
-let fruits = ["apple", "mango", "grapes"];
-console.log(fruits);
+let anime = ["One Piece", "Naruto", "Bleach"];
+console.log(anime);
 // push 
-// fruits.push("banana");
-// console.log(fruits);
+// fruits.push("Blue lock");
+// console.log(anime);
 // pop 
-// let poppedFruit = fruits.pop();
-// console.log(fruits);
-// console.log("popped fruits is", poppedFruit);
+// let poppedanime = anime.pop();
+// console.log(anime);
+// console.log("popped anime is", poppedanime);
