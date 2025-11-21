@@ -1,11 +1,11 @@
-let fruits = ["apple", "mango", "grapes"];
-console.log(fruits);
+let anime = ["One Piece", "Naruto", "Bleach"];
+console.log(anime);
 // shift 
-// let removedFruit = fruits.shift();
-// console.log(fruits);
-// console.log("removed fruits is ", removedFruit);
+// let removedanime = anime.shift();
+// console.log(anime);
+// console.log("removed anime is ", removedanime);
 
 // unshift 
-// fruits.unshift("banana");
-// fruits.unshift("myfruit");
-// console.log(fruits);
+// anime.unshift("Eye shield");
+// anime.unshift("Dandadan");
+// console.log(anime);
